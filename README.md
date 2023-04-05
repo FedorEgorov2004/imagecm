@@ -35,19 +35,25 @@ imagecm.gray_noise(width, height) # grayscale
 
 
 # 3D
-I3d(PIL.Image)
+image.I3d(PIL.Image)
 
 
-I3d.right(k)
+image.I3d(PIL.Image).right(k)
 
 
-I3d.left(k)
+image.I3d(PIL.Image).left(k)
 
 
-I3d.up(k)
+image.I3d(PIL.Image).up(k)
 
 
-I3d.down(k)
+image.I3d(PIL.Image).down(k)
+
+
+image.I3d(PIL.Image).show()
+
+
+image.I3d(PIL.Image).save(path)
 
 
 ![image](https://user-images.githubusercontent.com/84366597/230131032-d6f9bc85-9a1d-4df8-86f7-b1b1dc464132.png)
