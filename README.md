@@ -1,2 +1,2 @@
 # ImageCM
-Python module for generating and creating images
+Python module for generating and editing images
